@@ -15,16 +15,16 @@
 
 
 	$mail->isSMTP();                                      // Set mailer to use SMTP
-	$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+	$mail->Host = 'smtp.beget.com';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
-	$mail->Username = 'testforme876@gmail.com';                 // Наш логин
-	$mail->Password = 'testforme12345';                           // Наш пароль от ящика
+	$mail->Username = 'rss@skb.ru';                 // Наш логин
+	$mail->Password = 'Rss123';                           // Наш пароль от ящика
 	$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 	$mail->Port = 465;   
 
 
 	//От кого письмо
-	$mail->setFrom('testforme876@gmail.com', 'Сайт "Покраска сооружений"');
+	$mail->setFrom('rss@skb.ru', 'Сайт "Покраска сооружений"');
 	//Кому отправить
 	$mail->addAddress('Rss196@mail.ru');
 	//Тема письма
