@@ -26,7 +26,7 @@
 	//От кого письмо
 	$mail->setFrom('rss@skb.ru', 'Сайт "Покраска сооружений"');
 	//Кому отправить
-	$mail->addAddress('Rss196@mail.ru');
+	$mail->addAddress('ay@skb.ru');
 	//Тема письма
 	$mail->Subject = 'Заявка с сайта';
 
