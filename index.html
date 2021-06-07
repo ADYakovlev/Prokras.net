@@ -493,61 +493,61 @@
 						</div>
 					</div>
 				</section>
-				<section id="main-form" class="main-form">
-					<div class='main-form__container'>
-						<div class="main-form__title section-title">Рассчитать стоимость работ</div>
-						<form id='main_form' class="main-form__wrapper">
-							<div id="form_page_1" class="main-form__page animated main-form__page_hide">
-								<div class="main-form__subtitle">Ответь на 3 вопроса для рассчета стоимости работ за квадратный метр</div>
-								<div class="main-form__content">
-									<div class="main-form__item">
-										<span>Виды работ :</span>
-										<div class="main-form__input">
-											<select name="category_work" class="main-form__select select input">
-												<option value="Покраска" selected="selected">Покраска</option>
-												<option value="Огнезащита">Огнезащита</option>
-											</select>
-										</div>
-									</div>
-									<div class="main-form__item main-form__item_arrow">
-										<span>Обьем работ :</span>
-										<div class="main-form__input">
-											<input id="work_size" autocomplete="off" placeholder="0,00" type="number" name="work_size" class="input" id="work_size" />
-											<span>м <sup>2</sup></span>
-										</div>
-									</div>
-								</div>
-								<a id="form_btn_1" href="#form_page_2" class="main-form__btn">Рассчитать </a>
-							</div>
-							<div id="form_page_2" class="main-form__page animated main-form__page_hide">
-								<div class="main-form__subtitle">Дата начала работ</div>
-								<div class="main-form__content">
-									<div class="main-form__item main-form__item_arrow">
-									<span>Укажите дату :</span>
-									<div class="main-form__input">
-										<input id="picker" autocomplete="off" type="text" name="date" placeholder="дд,мм,гг" class="input" />
-									</div>
-									</div>
-								</div>
-								<a id="form_btn_2" href="#form_page_3" class="main-form__btn">Далее</a>
-							</div>
-							<div id="form_page_3" class="main-form__page animated main-form__page_hide">
-								<div class="main-form__subtitle">Укажите номер куда присылать результат</div>
-								<div class="main-form__item main-form__item_no main-form__item_arrow">
-									<span>Укажите номер</span>
-									<div class="main-form__input">
-										<input autocomplete="off"  type="text" name="phone" placeholder="+7 (999) 999-99-99" class="input input_phone" />
-									</div>
-								</div>
-								<label class="main-form__checkbox checkbox">
-									<input id="checkinput" class="checkbox__input" type="checkbox" value="1" name="accept" checked/>
-									<div class="checkbox__text">Я принимаю <a target="_blank" href="policy.html">условия передачи информации</a></div>
-								</label>
-								<button id="submit_btn" type="submit" class="main-form__btn _active">Рассчитать</button>
-							</div>
-						</form>
-					</div>
-				</section>
+<!--				<section id="main-form" class="main-form">-->
+<!--					<div class='main-form__container'>-->
+<!--						<div class="main-form__title section-title">Рассчитать стоимость работ</div>-->
+<!--						<form id='main_form' class="main-form__wrapper">-->
+<!--							<div id="form_page_1" class="main-form__page animated main-form__page_hide">-->
+<!--								<div class="main-form__subtitle">Ответь на 3 вопроса для рассчета стоимости работ за квадратный метр</div>-->
+<!--								<div class="main-form__content">-->
+<!--									<div class="main-form__item">-->
+<!--										<span>Виды работ :</span>-->
+<!--										<div class="main-form__input">-->
+<!--											<select name="category_work" class="main-form__select select input">-->
+<!--												<option value="Покраска" selected="selected">Покраска</option>-->
+<!--												<option value="Огнезащита">Огнезащита</option>-->
+<!--											</select>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<div class="main-form__item main-form__item_arrow">-->
+<!--										<span>Обьем работ :</span>-->
+<!--										<div class="main-form__input">-->
+<!--											<input id="work_size" autocomplete="off" placeholder="0,00" type="number" name="work_size" class="input" id="work_size" />-->
+<!--											<span>м <sup>2</sup></span>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--								<a id="form_btn_1" href="#form_page_2" class="main-form__btn">Рассчитать </a>-->
+<!--							</div>-->
+<!--							<div id="form_page_2" class="main-form__page animated main-form__page_hide">-->
+<!--								<div class="main-form__subtitle">Дата начала работ</div>-->
+<!--								<div class="main-form__content">-->
+<!--									<div class="main-form__item main-form__item_arrow">-->
+<!--									<span>Укажите дату :</span>-->
+<!--									<div class="main-form__input">-->
+<!--										<input id="picker" autocomplete="off" type="text" name="date" placeholder="дд,мм,гг" class="input" />-->
+<!--									</div>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--								<a id="form_btn_2" href="#form_page_3" class="main-form__btn">Далее</a>-->
+<!--							</div>-->
+<!--							<div id="form_page_3" class="main-form__page animated main-form__page_hide">-->
+<!--								<div class="main-form__subtitle">Укажите номер куда присылать результат</div>-->
+<!--								<div class="main-form__item main-form__item_no main-form__item_arrow">-->
+<!--									<span>Укажите номер</span>-->
+<!--									<div class="main-form__input">-->
+<!--										<input autocomplete="off"  type="text" name="phone" placeholder="+7 (999) 999-99-99" class="input input_phone" />-->
+<!--									</div>-->
+<!--								</div>-->
+<!--								<label class="main-form__checkbox checkbox">-->
+<!--									<input id="checkinput" class="checkbox__input" type="checkbox" value="1" name="accept" checked/>-->
+<!--									<div class="checkbox__text">Я принимаю <a target="_blank" href="policy.html">условия передачи информации</a></div>-->
+<!--								</label>-->
+<!--								<button id="submit_btn" type="submit" class="main-form__btn _active">Рассчитать</button>-->
+<!--							</div>-->
+<!--						</form>-->
+<!--					</div>-->
+<!--				</section>-->
 			</main>
 			<footer class="footer">
 	<div class="footer__container">
